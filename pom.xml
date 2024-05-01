@@ -33,7 +33,7 @@
         <version>3.13.0</version>
         <configuration>
           <source>${maven.compiler.source}</source>
-          <tatrge>${maven.compiler.taregt}</target>
+          <target>${maven.compiler.taregt}</target>
       </plugin>
     </plugins>
 </build>
