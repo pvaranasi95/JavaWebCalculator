@@ -21,6 +21,16 @@
     <version>2.5</version>
 </dependency>
 </dependencies>
+  <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <compilerVersion>1.8</compilerVersion>
+        </configuration>
+      </plugin>
+    </plugins>
 <distributionManagement>
   <repository>
     <id>releases</id>
